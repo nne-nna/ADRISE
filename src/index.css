@@ -1,0 +1,142 @@
+@font-face {
+  font-family: 'Aloevera Display';
+  src: url('./assets/fonts/AloeveraDisplay-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Akira Expanded';
+  src: url('./assets/fonts/AkiraExpanded.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aloevera Display Light';
+  src: url('./assets/fonts/AloeveraDisplay-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import "tailwindcss";
+
+@theme {
+  --font-aloevera: 'Aloevera Display', sans-serif;
+  --font-aloevera-light: 'Aloevera Display Light', sans-serif;
+  --font-akira: 'Akira Expanded', sans-serif;
+}
+
+ @keyframes scroll-left {
+  0% {
+      transform: translateX(0);
+    }
+  100% {
+      transform: translateX(-50%);
+    }
+}
+@keyframes scroll-right {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.scroll-left {
+  animation: scroll-left 60s linear infinite;
+}
+.scroll-right {
+  animation: scroll-right 60s linear infinite;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scroll-right {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.scroll-left {
+  animation: scroll-left 60s linear infinite;
+}
+
+.scroll-right {
+  animation: scroll-right 60s linear infinite;
+}
+
+.text-shadow-bottom {
+  text-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); 
+}
+
+.text-gradient {
+  background: linear-gradient(to right, #FFFFFF, #8980A3); 
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.border-left-extended {
+  position: relative;
+  border-radius: 0;
+}
+
+.border-left-extended::before {
+  content: '';
+  position: absolute;
+  left: -40px;
+  top: -10px;
+  bottom: -10px;
+  width: 2px;
+  background-color: #15192C;
+  z-index: 1;
+}
+
+.border-left-extended::after {
+  content: '';
+  position: absolute;
+  left: -50px;
+  right: 0;
+  top: 0;
+  height: 2px;
+  background-color: #15192C;
+  z-index: 2;
+}
+
+.border-right-extended {
+  position: relative;
+  border-radius: 0;
+}
+
+.border-right-extended::before {
+  content: '';
+  position: absolute;
+  right: -40px;
+  top: -10px;
+  bottom: -10px;
+  width: 2px;
+  background-color: #15192C;
+  z-index: 1;
+}
+
+.border-right-extended::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: -50px;
+  top: 0;
+  height: 2px;
+  background-color: #15192C;
+  z-index: 2;
+}
