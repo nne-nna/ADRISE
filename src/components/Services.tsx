@@ -15,7 +15,7 @@ export const Services = () => {
   ];
 
   return (
-    <section className="px-6 py-12 max-w-6xl mx-auto relative">
+    <section className="px-6 max-w-6xl mx-auto relative">
       <div className="w-fit mx-auto">
         <img
           src="/service.png"
@@ -30,9 +30,9 @@ export const Services = () => {
           }}
         />
       </div>
-      <div className="w-fit mx-auto text-center mt-20 mb-80 lg:mb-24">
+      <div className="w-fit mx-auto text-center mt-20 mb-72 sm:mb-76 lg:mb-24">
         <p className="font-aloevera-light">We have a solution</p>
-        <h3 className="font-aloevera text-3xl font-bold md:mb-72 lg:mb-4 max-w-lg">
+        <h3 className="font-aloevera text-3xl font-bold mb-4 max-w-lg">
           Adrise helps you handle your marketing options easier, quicker and
           cheaper
         </h3>
@@ -54,30 +54,27 @@ export const Services = () => {
           />
         </div>
 
-        <div className="relative z-10 grid grid-cols-1 lg:grid-cols-3 gap-4
-                        mx-auto max-w-xs sm:max-w-xs md:max-w-xs lg:max-w-none"> 
+        <div
+          className="relative z-10 grid grid-cols-1 lg:grid-cols-3 gap-4
+                        mx-auto max-w-xs sm:max-w-xs md:max-w-xs lg:max-w-none"
+        >
           {services.map((service, index) => (
             <div
               key={index}
-              className="bg-[#5954DA] border border-[#7B76E8] rounded-2xl p-8 my-2 lg:my-36 text-center relative z-10
-                         transition-all duration-300 ease-out
-                         hover:bg-[#5954DA55] hover:border-[#FFFFFF55] hover:shadow-2xl hover:shadow-[#5954DA]/20
-                         hover:scale-105 hover:-translate-y-2
-                         cursor-pointer group
-                         w-full mx-auto"
+              className="bg-[#5954DA] border border-[#7B76E8] rounded-2xl p-4 sm:p-6 md:p-6 lg:p-8 
+                        my-4 sm:my-6 md:my-8 lg:my-36 text-center relative z-10 transition-all duration-300 ease-out
+                        hover:bg-[#5954DA55] hover:border-[#FFFFFF55] hover:shadow-2xl hover:shadow-[#5954DA]/20
+                        hover:scale-105 hover:-translate-y-2 cursor-pointer group w-full max-w-[300px] sm:max-w-[340px] 
+                        md:max-w-[400px] lg:max-w-none mx-auto"
             >
-              <div
-                className="w-10 h-10 rounded-full mx-auto mb-4 flex items-center justify-center transition-all duration-300 ease-out group-hover:scale-110 group-hover:rotate-6"
-              >
+              <div className="w-10 h-10 rounded-full mx-auto mb-4 flex items-center justify-center transition-all duration-300 ease-out group-hover:scale-110 group-hover:rotate-6">
                 <img
                   src={service.image}
                   alt={service.title.join(" ")}
                   className="w-full h-full object-contain transition-all duration-300 ease-out group-hover:brightness-110"
                 />
               </div>
-              <h3
-                className="text-xl font-medium text-white mb-4 font-aloevera transition-all duration-300 ease-out group-hover:text-opacity-90 group-hover:scale-105"
-              >
+              <h3 className="text-xl font-medium text-white mb-4 font-aloevera transition-all duration-300 ease-out group-hover:text-opacity-90 group-hover:scale-105">
                 {service.title[0]} <br /> {service.title[1]}
               </h3>
             </div>

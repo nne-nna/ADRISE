@@ -24,8 +24,8 @@ export const AITools = () => {
   ];
 
   return (
-    <section className="px-6 py-12 max-w-6xl mx-auto text-white min-h-screen mt-20 lg:mt-0">
-      <div className="text-center mb-32 mt-36 lg:mt-20">
+    <section className="px-6 py-12 max-w-6xl mx-auto text-white min-h-screen lg:mt-20">
+      <div className="text-center mb-32 mt-56 lg:mt-20">
         <h2 className="text-3xl font-bold md:mt-60 lg:mt-0 lg:mb-4 font-aloevera">
           ...integrating 3 critical
           <br />

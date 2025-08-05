@@ -9,7 +9,7 @@ export const Footer = () => {
   ];
 
   return (
-    <footer className="px-6 pt-12 max-w-7xl mx-auto border-gray-800">
+    <footer className="px-6 pt-12 max-w-7xl mx-auto">
       <div className="grid md:grid-cols-3 gap-8">
         <div>
           <div className="flex items-center space-x-2 mb-4">
