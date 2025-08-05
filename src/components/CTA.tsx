@@ -1,13 +1,13 @@
 export const CTA = () => {
   return (
     <section className="px-6 py-12 max-w-7xl mx-auto">
-      <div className="bg-gradient-to-r from-[#6B39FF] to-[#211151] rounded-2xl p-10 text-white flex items-center justify-center flex-col md:flex-row gap-20 relative">
+      <div className="bg-gradient-to-r from-[#6B39FF] to-[#211151] rounded-2xl p-8 text-white flex items-center justify-center flex-col md:flex-row gap-20 relative">
         <img
           src="/hero-vector-1.png"
           alt="Ellipse Background"
           className="absolute left-0 top-0 h-full w-1/2 object-contain object-left z-0 pointer-events-none"
         />
-        <div className="md:w-1/2 flex items-center justify-start relative z-10">
+        <div className="w-full flex items-center justify-start relative z-10">
           <div className="flex flex-col items-start space-y-4">
             <img src="/Logo.png" alt="Logo" className="w-10 h-10" />
             <p className="text-xl text-[#FFFFFFD9] font-aloevera">
@@ -15,7 +15,7 @@ export const CTA = () => {
             </p>
           </div>
         </div>
-        <div className="md:w-1/2 text-center">
+        <div className="w-full text-center">
           <div className="space-y-4 w-full">
             <div className="relative">
               <input
