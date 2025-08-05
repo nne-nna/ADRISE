@@ -1,7 +1,7 @@
 export const CTA = () => {
   return (
-    <section className="px-6 py-20 max-w-7xl mx-auto">
-      <div className="bg-gradient-to-r from-[#6B39FF] to-[#211151] rounded-2xl p-12 text-white flex items-center justify-center flex-col md:flex-row gap-20 relative">
+    <section className="px-6 py-12 max-w-7xl mx-auto">
+      <div className="bg-gradient-to-r from-[#6B39FF] to-[#211151] rounded-2xl p-10 text-white flex items-center justify-center flex-col md:flex-row gap-20 relative">
         <img
           src="/hero-vector-1.png"
           alt="Ellipse Background"

@@ -19,7 +19,7 @@ interface MovingCarouselProps {
 const Features: React.FC = () => {
   const topTestimonials: Testimonial[] = [
     {
-      avatar: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=64&h=64&fit=crop&crop=face",
+      avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=64&h=64&fit=crop&crop=face",
       text: "I just want to spend time on my product. Don't want to be learning marketing too.",
     },
     {
@@ -46,7 +46,7 @@ const Features: React.FC = () => {
 
   const bottomTestimonials: Testimonial[] = [
     {
-      avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=64&h=64&fit=crop&crop=face",
+      avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=64&h=64&fit=crop&crop=face",
       text: "I just want to spend time on my product. Don't want to be learning marketing too.",
     },
     {
@@ -92,14 +92,12 @@ const Features: React.FC = () => {
         <div className="absolute left-0 top-0 text-xs text-gray-500 font-medium mb-2 z-10">
           {label}
         </div>
-        {/* Left fade overlay */}
         <div 
           className="absolute top-0 left-0 h-full w-20 z-20" 
           style={{ 
             background: 'linear-gradient(to right, #01081D, transparent)' 
           }}
         ></div>
-        {/* Right fade overlay */}
         <div 
           className="absolute top-0 right-0 h-full w-20 z-20" 
           style={{ 
@@ -122,7 +120,7 @@ const Features: React.FC = () => {
 
   return (
     <div className="text-white">
-      <section className="px-6 py-10 max-w-6xl mx-auto">
+      <section className="px-6 py-12 max-w-6xl mx-auto">
         <div className="relative text-center">
           <img src="/ellipse-1.png" alt="Ellipse 1" className="mx-auto" />
           <img

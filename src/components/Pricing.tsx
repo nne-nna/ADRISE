@@ -41,15 +41,15 @@ export const Pricing = () => {
   ];
 
   return (
-    <section className="px-6 max-w-6xl mx-auto">
-      <div className="text-center mb-24">
+    <section className="px-6 py-12 max-w-6xl mx-auto">
+      <div className="text-center mb-14">
         <h2 className="text-3xl font-bold mb-4 font-aloevera">
           We mentioned 'cheaper'...
           <br />
           See for yourself.
         </h2>
       </div>
-      <div className="grid md:grid-cols-3 gap-8 mb-20">
+      <div className="grid md:grid-cols-3 gap-8">
         {plans.map((plan, index) => (
           <div
             key={index}

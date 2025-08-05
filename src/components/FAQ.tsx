@@ -20,7 +20,7 @@ export const FAQ = () => {
   };
 
   return (
-    <section className="px-6 py-10 max-w-4xl mx-auto">
+    <section className="px-6 py-12 max-w-4xl mx-auto">
       <h2 className="text-3xl font-aloevera font-bold text-center mb-16">Frequently Asked Questions</h2>
       
       <div className="space-y-4">
